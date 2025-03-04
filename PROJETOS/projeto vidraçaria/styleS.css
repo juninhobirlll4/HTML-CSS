@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(fontes/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(fontes/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fontes/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+:root{
+    --cor01: #323231;
+    --cor02: #00FFFF; 
+    --cor03: #38B6FF; /*TEXTO*/
+
+    --fonte01: "Open Sans";
+    --fonte02: Oswald;
+    --fonte03: Roboto;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--fonte02);
+    text-align: center;
+}
+
+body{
+    background-image: url(imagens/FUNDO\ 1.png);
+}
+
+header{
+   background-color: gray;
+}
+
+h1{
+    color: white;
+    padding-bottom: 11px;
+}
+
+h3{
+    color: white;
+    padding-bottom: 11px;
+}
+
+div{
+    padding-bottom: 16px;
+}
+
+div a{
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 2em;
+    font-size: 1.5em;
+}
+
+div a:hover{
+    background-color: var(--cor02);
+    border-radius: 10px;
+    padding: 5px;
+    transition-duration: 1s
+}

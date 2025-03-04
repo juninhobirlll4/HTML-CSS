@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/*EM HTML é ID, em CSS vira ########
+EM HTML é ID, em CSS vira .......
+*/
+
+*{
+    text-align: justify;
+}
+
+#principal{
+    color: #005C53;
+    background-color: #D6D58E;
+}
+
+.basico{
+    color: #31c144;
+    font-weight: 900;
+}
+
+.intermediario{
+    color: #b3c131;
+}
+
+.avancado{
+    color:#c13131
+}

@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Open Sans";
+    src: url(fontes/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(fontes/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fontes/Roboto-VariableFont_wdth\,wght.ttf);
+}
+
+:root{
+    --cor01: #323231;
+    --cor02: #00FFFF; 
+    --cor03: #38B6FF; /*TEXTO*/
+
+    --fonte01: "Open Sans";
+    --fonte02: Oswald;
+    --fonte03: Roboto;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    font-family: var(--fonte03);
+}
+
+h2{
+    font-family: var(--fonte02);
+    background-image: linear-gradient(to right, var(--cor02), transparent);
+}
+
+h1{
+    font-family: var(--fonte02);
+}
+
+header{
+    text-align: center;
+    background-image: url(imagens/FUNDO\ 1.png);
+    color: white;
+}
+
+header h1{
+    padding: 32px 0px 10px 25px;
+}
+
+header p#orçamento{
+    padding: 10px;
+}
+
+header a{
+    color: white;
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+header a:hover{
+    background-color: var(--cor02);
+    border-radius: 10px;
+    padding: 5px;
+    transition-duration: 1s
+}
+
+nav{
+    background-color: var(--cor01);
+    padding: 10px 0px 10px 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 1px 0px 1px 0px;
+    font-weight: 900;
+}
+
+nav a:hover{
+    background-color: var(--cor02);
+    border-radius: 10px;
+    padding: 5px;
+    transition-duration: 1s
+}
+
+span{
+    color: white;
+    margin: 10px;
+}
+
+main h2{
+    padding-left: 7px;
+}
+
+main p{
+    text-indent: 10px;
+    line-height: 1.2em;
+    text-align: justify;
+    padding-left: 7px;
+}
+
+
+section#introducao h2{
+    background-image: linear-gradient(to right, var(--cor02), transparent);
+}
+
+section#introducao p{
+    margin-left: 10px;
+}
+
+#dados img{
+    width: 100%;
+}
+
+#dados{
+    padding-top: 10px;
+    margin: auto;
+    width: 80%;
+}
+
+#porque{
+    margin: 10px 0px 13px 0px;
+    display: block;
+}
+
+
+#container img{
+    width: 20%;
+    box-shadow: 3px 2px 9px 0px black;
+    border-radius: 30px 10px 6px 0px;
+    margin: 19px 9px 19px 0px;
+}
+
+aside{
+    background-color: #00FFFF;
+    list-style-position: inside;
+    columns: 3;
+    margin: 28px;
+    border-radius: 10px 1px 14px 1px;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+}
+
+footer a{
+    color: white;
+    text-decoration: underline;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+footer a:hover{
+    text-transform: uppercase;
+    font-weight: 900;
+    transition-duration: 1s;
+}
