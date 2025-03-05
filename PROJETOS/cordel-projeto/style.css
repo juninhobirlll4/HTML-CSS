@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Sriracha";
+    src: url("Sriracha-Regular.ttf") format(truetype);
+}
+
+@font-face {
+    font-family: "Passion";
+    src: url("PassionOne-Bold.ttf") format(truetype);
+}
+
+:root{
+    --fonte01: "Passion";
+    --fonte02: "Sriracha";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.2em;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 1px;
+    width: 100%;
+    font-family: var(--fonte01);
+    font-size: 2em;
+}
+
+header h1{
+    padding-top: 20px;
+}
+
+header p{
+    padding-top: 13px;
+    padding-bottom: 14px;
+}
+
+header a{
+    color: white;
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6, .section7{
+    min-width: 100vh;
+    font-size: 2em;
+}
+
+.section1{
+    background-color: white;
+}
+
+.container{
+    font-family: var(--fonte02);
+}
+
+.section1 .container{
+    color: black;
+    position: relative;
+    left: 45px;
+    top: 116px;
+    width: 332px;
+    height: 550px;
+}
+
+.section2{
+    height: 600px;
+    background-image: url(imagens/background001.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.section2 .container{
+        color: white;
+        position: relative;
+        left: 45px;
+        top: 100px;
+        color: white;
+        width: 332px;
+        height: 550px;
+}
+
+.section3{
+    background-color: transparent;
+}
+
+.section3 .container{
+    position: relative;
+    left: 45px;
+    top: 100px;
+    color: black;
+    width: 332px;
+    height: 350px;
+}
+
+
+.section4{
+    background-color: white;
+}
+
+.section4 .container{
+    position: relative;
+    left: 45px;
+    top: 100px;
+    width: 332px;
+    height: 550px;
+}
+
+.section5{
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+    background-position: center;
+}
+
+.section5 .container{
+    position: relative;
+    left: 45px;
+    top: 110px;
+    color: white;
+    width: 332px;
+    height: 550px;
+}
+
+.section6{
+    background-color: white;
+}
+
+.section6 .container{
+    position: relative;
+    left: 45px;
+    top: 100px;
+    color: black;
+    width: 332px;
+    height: 400px;
+}
+
+.section7{
+    background-color: white;
+}
+
+.section7 .container{
+    position: relative;
+    left: 45px;
+    top: 100px;
+    color: black;
+    width: 343px;
+    height: 550px;
+}
+
+
+
